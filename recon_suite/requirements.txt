@@ -1,0 +1,6 @@
+# No third-party packages required.
+# The whole suite (port scanner, header auditor, subdomain enumerator, pipeline,
+# GUI, CLI) uses only the Python standard library (asyncio, urllib, socket, ssl).
+#
+# Requirements:
+#   - Python 3.8+
