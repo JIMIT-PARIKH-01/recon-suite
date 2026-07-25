@@ -14,8 +14,10 @@ def test_parse_ports_clamps():
 
 
 def test_header_grade_bands():
-    assert headers._grade(6) == "A"
-    assert headers._grade(0) == "F"
+    total = len(headers.SECURITY_HEADERS)
+    assert headers._grade(total) == "A"      # all present -> A
+    assert headers._grade(0) == "F"          # none present -> F
+    assert total >= 9                         # now audits COOP/COEP/CORP too
 
 
 def test_subdomain_parse_crtsh():
