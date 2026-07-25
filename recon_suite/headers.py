@@ -21,6 +21,9 @@ SECURITY_HEADERS = {
     "x-content-type-options": ("X-Content-Type-Options", "blocks MIME sniffing"),
     "referrer-policy": ("Referrer-Policy", "limits referrer leakage"),
     "permissions-policy": ("Permissions-Policy", "restricts browser features"),
+    "cross-origin-opener-policy": ("COOP", "isolates browsing context (Spectre)"),
+    "cross-origin-embedder-policy": ("COEP", "controls cross-origin resource loading"),
+    "cross-origin-resource-policy": ("CORP", "blocks cross-origin resource theft"),
 }
 # Headers that leak stack/version info.
 LEAK_HEADERS = ("server", "x-powered-by", "x-aspnet-version",
