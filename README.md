@@ -1,5 +1,8 @@
 # Recon Suite
 
+[![CI](https://github.com/JIMIT-PARIKH-01/recon-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/JIMIT-PARIKH-01/recon-suite/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
 A small, **dependency-free** reconnaissance toolkit for authorized security testing —
 four tools in one, with a **GUI and a CLI**:
 
