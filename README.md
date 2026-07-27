@@ -15,6 +15,8 @@ Built on the Python standard library only (`asyncio`, `urllib`, `socket`, `ssl`)
 
 ---
 
+![demo](docs/demo.png)
+
 ## ⚠️ Authorized use only
 
 Run these tools **only** against systems you own or have **explicit written permission**
